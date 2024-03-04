@@ -38,3 +38,5 @@ with connect:
                 cursor.execute(
                     "insert into orders (order_id, customer_id, employee_id, order_date, ship_city) values (%s, %s, %s, %s, %s)",
                     row)
+
+connect.close()

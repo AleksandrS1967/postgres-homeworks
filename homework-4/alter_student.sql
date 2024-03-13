@@ -30,4 +30,4 @@ values
 (default, 'Viktor', 'Petrov', '1997-05-09', '89416580954')
 
 -- 7. Удалить все данные из таблицы со сбросом идентификатор в исходное состояние
-select* from student RESTART IDENTITY
+TRUNCATE TABLE student RESTART IDENTITY
